@@ -3,6 +3,10 @@
     src: url("Vazir-FD.ttf");
 }
 
+.t {
+    filter: invert(1) hue-rotate(180deg);
+}
+
 .dark {
     text-decoration: none;
     color: #0095D9;
@@ -250,4 +254,53 @@ html {
     font-weight: bold;
     font-size: 1.3rem;
     color: rgb(43, 43, 43);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    background: #2D3742;
+    margin: 60px 0 20px 0;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-direction: row-reverse;
+}
+
+.footer ul li {
+    list-style-type: none;
+    margin: 0 15px 0 15px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #e2e2e2;
+    transition: 0.5s ease-out;
+}
+
+.footer ul li a:hover {
+    color: #0095D9;
+    transition: 0.5s ease-in;
+}
+
+.line {
+    border: 1px solid white;
+    margin: 0 150px;
+}
+
+.tah {
+    background-color: #2D3742;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot2 p {
+    color: #606b77;
+    text-align: center;
+    margin: 60px 0 20px 0;
 }
