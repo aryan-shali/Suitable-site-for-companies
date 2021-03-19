@@ -3,6 +3,45 @@
     src: url("Vazir-FD.ttf");
 }
 
+.dark {
+    text-decoration: none;
+    color: #0095D9;
+    border: 2px solid #0095D9;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease-in;
+}
+
+.dark:hover {
+    color: white;
+    background: #0095D9;
+    transition: 1s ease-out;
+}
+
+.d {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.i {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.i:hover {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.o {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     font-family: vazir;
     padding: 0;
@@ -72,7 +111,11 @@
 }
 
 .head2 {
-    background: #F5F6FA;
+    background: #ececec;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
 .head2 ul {
@@ -82,6 +125,16 @@
     list-style-type: none;
     padding: 25px;
 }
+
+
+/* .head2 div {
+    
+}
+
+.head2 div:hover {
+    background-color: #0095D9;
+    
+} */
 
 .head2 ul li {
     padding: 0 40px;
@@ -134,7 +187,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 50px 0 0 50px;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    background: white;
 }
 
 .title {
@@ -161,4 +216,38 @@
     color: white;
     background: #00608D;
     transition: 1s ease-in;
+}
+
+.tazmin {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #e2e2e2;
+    padding: 70px 0 70px 0;
+}
+
+.tazmin div img {
+    width: 40px;
+    height: 40px;
+    margin: 0 0 0 20px;
+}
+
+.b1,
+.b2,
+.b3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.matn {
+    width: 242px;
+    height: auto;
+    color: #3a3a3a;
+}
+
+.titr {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: rgb(43, 43, 43);
 }
