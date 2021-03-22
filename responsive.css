@@ -122,12 +122,30 @@
     }
 }
 
+@media only screen and (max-width: 770px) {
+    .contain {
+        height: 480px;
+        width: auto;
+    }
+    .footp li {
+        display: none;
+    }
+    .footer {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 @media only screen and (max-width: 560px) {
     .tozi {
         width: 400px;
         height: auto;
         text-align: justify;
         padding-left: 0;
+    }
+    .contain {
+        height: 350px;
+        width: auto;
     }
     .footp li {
         display: none;
@@ -167,5 +185,11 @@
     .contain {
         height: 300px;
         width: auto;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .tozi {
+        width: 200px;
     }
 }
