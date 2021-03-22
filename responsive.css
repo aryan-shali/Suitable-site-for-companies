@@ -1,0 +1,171 @@
+@media only screen and (max-width: 1024px) {
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 2;
+    }
+    .dropdown-content a {
+        display: block;
+    }
+    .dropbtn {
+        display: flex;
+        border: 2px solid #0095D9;
+        width: 124px;
+        height: 34px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        color: #0095D9;
+        font-size: 1rem;
+        transition: 1s ease-in-out;
+    }
+    .dropbtn:hover {
+        background-color: #0095D9;
+        color: white;
+        transition: 1s ease-in-out;
+    }
+    .v {
+        color: #0095D9;
+    }
+    .v:hover {
+        color: white;
+    }
+    .g {
+        color: white;
+    }
+    .g:hover {
+        color: #0095D9;
+    }
+    .dropdown-content {
+        background: rgba(0, 0, 0, 0.9);
+        border-radius: 30px;
+        transition: 1s ease-in;
+    }
+    .dropdown {
+        transition: 1s ease-in;
+    }
+    .dropdown-content a {
+        text-align: center;
+        padding: 20px 30px;
+    }
+    .dropdown:hover .dropdown-content {
+        transition: 1s ease-in;
+        display: block;
+    }
+    .moref {
+        padding: 50px 20px;
+    }
+    .moref div {
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tozi {
+        text-align: justify;
+    }
+    .tazmin {
+        padding: 70px 30px;
+    }
+    .line {
+        margin: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .head2 {
+        width: 100%;
+    }
+    .tazmin div {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .tazmin {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .head1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .p4 {
+        display: none;
+    }
+    .p1,
+    .p2,
+    .p3,
+    .p4 {
+        margin: 0 20px;
+    }
+    .ps {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ps a {
+        text-decoration: none;
+        border: 2px solid #0095D9;
+        padding: 9px 30px;
+        color: black;
+        transition: 1s ease;
+    }
+    .ps a:hover {
+        background: #0095D9;
+        color: white;
+        transition: 1s ease;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .tozi {
+        width: 400px;
+        height: auto;
+        text-align: justify;
+        padding-left: 0;
+    }
+    .footp li {
+        display: none;
+    }
+    .footer {
+        justify-content: center;
+        align-items: center;
+    }
+    .line {
+        margin: 0 30px;
+    }
+    .contain h1 {
+        font-size: 4.5rem;
+    }
+    .p2,
+    .p3 {
+        display: none;
+    }
+    .head1 {
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .contain h1 {
+        font-size: 3rem;
+    }
+    .tozi {
+        width: 300px;
+        padding-left: 0;
+    }
+    .moref img {
+        width: 300px;
+        height: auto;
+    }
+    .contain {
+        height: 300px;
+        width: auto;
+    }
+}
