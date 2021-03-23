@@ -1,6 +1,6 @@
 @font-face {
     font-family: "vazir";
-    src: url("Vazir-FD.ttf");
+    src: url("font/Vazir-FD.ttf");
 }
 
 * {
@@ -158,6 +158,10 @@ html {
     padding: 40px 0;
 }
 
+* {
+    transition: 1s ease-out;
+}
+
 .contain {
     width: 100%;
     height: 550px;
@@ -165,14 +169,14 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(dac97dab3c5e48e890108b868c7b10ec.w_1920,h_506,r_k.jpg );
+    background-image: url(../images/dac97dab3c5e48e890108b868c7b10ec.w_1920,h_506,r_k.jpg );
     background-size: cover;
     background-position: center;
     transition: 1s ease-in;
 }
 
 .contain:hover {
-    background: url(3.jpg);
+    background: url(../images/3.jpg);
     background-size: cover;
     background-position: center;
     transition: 1s ease-out;
